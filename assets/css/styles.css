@@ -51,7 +51,7 @@ table {
   Navigation
 ###############*/
 
-/*.nav-bar nav {
+.nav-bar nav {
   float: right;
   padding: 2px 10px 0 3px;
   font-family: fantasy;
@@ -69,15 +69,7 @@ table {
 	height: 140px;
   /*backgro4und-image: url(images/citrus-hotel-6.jpg);*/
   /*background-color: grey;*/
-/*}
+}
 .image h1{
 	padding-left: 13px;
-}*/
-.logo{
-  background: transparent;
-  width: 150px;
 }
-.links{
-  float: right;
-}
-.navbar{}
