@@ -51,7 +51,11 @@ table {
   Navigation
 ###############*/
 
+<<<<<<< HEAD
 /*.nav-bar nav {
+=======
+.nav-bar nav {
+>>>>>>> 1e22a793c022be346368d9341acc167a21ae5630
   float: right;
   padding: 2px 10px 0 3px;
   font-family: fantasy;
@@ -66,6 +70,7 @@ table {
 }
 .image img{
   margin: 2px;
+<<<<<<< HEAD
 	height: 140px;
   /*backgro4und-image: url(images/citrus-hotel-6.jpg);*/
   /*background-color: grey;*/
@@ -81,3 +86,12 @@ table {
   float: right;
 }
 .navbar{}
+=======
+	height: 150px;
+  /*background-image: url(images/citrus-hotel-6.jpg);*/
+  /*background-color: grey;*/
+}
+.image h1{
+	padding-left: 13px;
+}
+>>>>>>> 1e22a793c022be346368d9341acc167a21ae5630
