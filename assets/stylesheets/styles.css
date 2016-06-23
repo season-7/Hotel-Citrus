@@ -66,8 +66,7 @@ table {
 }
 .grid,
 .container {
-	margin: 10px auto;
-	min-width: 100%;
+	margin: 10px 10px;
 }
 .column-1 {
 	width: 50%;
@@ -80,8 +79,19 @@ table {
 .column-1 {
 	padding-left: 15px;
 	padding-right: 15px;
+	margin-bottom: 10px;
 }
 
+/*
+  ========================================
+  Rows
+  ========================================
+*/
+
+.row {
+  background: white;
+  padding: 66px 0 44px 0;
+}
 
 /*
   ========================================
@@ -134,7 +144,9 @@ ul {
 	 Navigation
 	 ========================================
 */
+
 nav {
+	padding-bottom: 22px;
 	word-spacing: 1.5em;
 }
 .top-nav {
@@ -153,6 +165,7 @@ nav {
 
 a {
 	color: red;
+	font-size: 22px;
 	text-decoration: none;
 }
 
@@ -165,7 +178,7 @@ a {
 header {
 	background-color: orange;
 	padding-left: 15px;
-	margin-bottom: 22px;
+	margin-bottom: 15px;
 }
 .primary-header {
 	 padding-top: 10px;
@@ -174,4 +187,30 @@ header {
 	font-size: 25px;
 	font-style: italic;
 	padding-top: 15px;
+}
+
+/*
+  ========================================
+	 Footer
+	 ========================================
+*/
+
+footer {
+	height: 60px;
+	line-height: 60px;
+}
+/*
+  ========================================
+	Restaurants
+	=========================================
+*/
+
+.img1 {
+	padding-left: 200px;
+}
+.section2 {
+	padding-left: 30px;
+	padding-right: 30px;
+	margin: 10px 10px;
+
 }
