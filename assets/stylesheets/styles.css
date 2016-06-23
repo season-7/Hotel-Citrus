@@ -81,16 +81,25 @@ h3 {
 	font-size: 28px;
 	font-weight: 600;
 }
+ul {
+	padding-left: 25px;
+	list-style-type: disc;
+}
 
 /*
   ========================================
-	 Links
+	 Navigation
 	 ========================================
 */
-
+nav {
+	word-spacing: 1.5em;
+}
 .top-nav {
 	padding-right: 15px;
 	text-align: right;
+}
+.bottom-nav {
+	text-align: center;
 }
 
 /*
