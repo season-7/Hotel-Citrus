@@ -53,10 +53,53 @@ table {
 	 ========================================
 */
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 .container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.grid,
+.container {
+	margin: 10px auto;
+	min-width: 100%;
+}
+.column-1 {
+	width: 50%;
+}
+.column-1 {
+	display: inline-block;
+	vertical-align: top;
+}
+.grid,
+.column-1 {
 	padding-left: 15px;
-	margin-bottom: 20px;
-	width: 1250px;
+	padding-right: 15px;
+}
+
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+
+.group:before,
+.group:after {
+  content: "";
+  display: table;
+}
+.group:after {
+  clear: both;
+}
+.group {
+  clear: both;
+  *zoom: 1;
 }
 
 /*
@@ -125,8 +168,7 @@ header {
 	margin-bottom: 22px;
 }
 .primary-header {
-	padding-top: 10px;
-	/*color: #0000cc;*/
+	 padding-top: 10px;
 }
 .slogan {
 	font-size: 25px;
