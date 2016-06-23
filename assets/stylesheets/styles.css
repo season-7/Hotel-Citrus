@@ -55,9 +55,8 @@ table {
 
 .container {
 	padding-left: 15px;
-	padding-right: 15px;
 	margin-bottom: 20px;
-	width: 1200px;;
+	width: 1250px;
 }
 
 /*
@@ -69,8 +68,8 @@ table {
 body {
 	font-family: 'Roboto', sans-serif;
 	line-height: 150%;
-	background: #660000;
-	color: #fff;
+	background: #ffc266;
+	color: #000;
 }
 h1, h3, p {
 	margin-bottom: 20px;
@@ -89,7 +88,19 @@ h3 {
 	 ========================================
 */
 
+.top-nav {
+	padding-right: 15px;
+	text-align: right;
+}
+
+/*
+  ========================================
+	 Links
+	 ========================================
+*/
+
 a {
+	color: red;
 	text-decoration: none;
 }
 
@@ -98,11 +109,15 @@ a {
 	 Header
 	 ========================================
 */
-.primary-header {
-	margin: 10px auto;
+
+header {
+	background-color: orange;
+	padding-left: 15px;
+	margin-bottom: 22px;
 }
-.top-nav {
-	text-align: right;
+.primary-header {
+	padding-top: 10px;
+	/*color: #0000cc;*/
 }
 .slogan {
 	font-size: 25px;
