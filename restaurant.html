@@ -41,18 +41,117 @@
 
         </div>
   </nav>
+
 </header>
+
 <section class="col-sm-12" style="padding-top:90px; padding-bottom:20px;">
-  <div class="col-sm-12">
-    <h1>Our branches</h1>
+    <div id="wrapper">
 
-  </div>
+       <!-- Sidebar -->
+       <div id="sidebar-wrapper">
+           <ul class="sidebar-nav">
+               <li class="sidebar-brand">
+                   <a href="#">
+                       Our Services
+                   </a>
+               </li>
+               <li>
+                   <a href="#restaurant">Branches</a>
+               </li>
+               <li>
+                   <a href="#form">Book room</a>
+               </li>
+               <li>
+                   <a href="#">Events</a>
+               </li>
+               <li>
+                   <a href="index.html#about">About</a>
+               </li>
+               <li>
+                   <a href="#">Services</a>
+               </li>
+               <li>
+                   <a href="index.html#contact_form">Contact</a>
+               </li>
+           </ul>
+       </div>
+       <!-- /#sidebar-wrapper -->
 
+       <!-- Page Content -->
+       <div id="page-content-wrapper">
+           <div class="container-fluid">
+               <div class="row">
+                   <div class="col-lg-12">
+                     <h1 style="color:green; text-align:center;">Our services</h1>
+                      <p>
+                        Hotel Citrus offers an eclectic mix of dining and entertainment options.
+                        One can enjoy the legendary Thorn Tree Café or the casual atmosphere at the Pool Deck Restaurant.
+                        The Exchange Bar is an elegantly decadent, plush lounge bar.
+                      </p>
+                      <div class="col-sm-4">
+                            <img src="./assets/images/restaurant.jpeg" alt="restaurant" />
+                      </div>
+                      <div class="col-sm-4">
+                          <img src="./assets/images/pool-deck.jpeg" alt="Pool Deck" />
+                      </div>
+                      <div class="col-sm-4">
+                        <img src="./assets/images/image1.jpg" alt="Reception" />
+                      </div>
+
+                   </div>
+                   <div class="col-lg-12">
+                     <form class="col-sm-6" id="form" action="/" method="post" style="padding-bottom:20px;" >
+                       <h1 style="color:green;">Book Room</h1>
+                       <!-- form -->
+                             <div class="form-group">
+                               <label for="exampleInputEmail1">Email address</label>
+                               <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email Address">
+
+                                 <label for="exampleInputPassword1">Full name</label>
+                               <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Full Name">
+                               <label for="exampleInputPhoneNumber">Phone Number</label>
+                             <input type="text" name="name"class="form-control" id="exampleInputPhoneNumber" placeholder="Phone Number">
+                             <label for="exampleInputPayment">Mode of Payment</label>
+                             <select class="c-select">
+                                  <option selected>Select Mode of payment</option>
+                                  <option value="1">Mpesa</option>
+                                  <option value="2">PayPal</option>
+                                  <option value="3">TVisa Card</option>
+                                  <option value="4">MoneyGram</option>
+                                </select><br>
+
+                               <label for="exampleComment">Select room</label>
+                               <select class="c-select">
+                                    <option selected>Open this select a room</option>
+                                    <option value="1">First floor</option>
+                                    <option value="2">Second Floor</option>
+                                    <option value="3">Third Floor</option>
+                                    <option value="4">Fourth Floor</option>
+                                  </select>
+                             </div>
+                             <button type="submit" class="btn btn-default">Submit</button>
+                           </form>
+                           <div class="col-sm-6">
+                             <h1 style="color:green;">Special Offers</h1>
+                             <ul>
+                               <li>1.Family Holiday outtings</li>
+                               <li>2.Free Massage at our barber shop</li>
+                               <li>3.One bottle of wine for ladies on Friday nights</li>
+                               <li>4.Bike riding competition for kids</li>
+                               <li>5.Birthday cakes at a subsidized price</li>
+                             </ul>
+
+                           </div>
+                   </div>
+               </div>
+             </div>
+
+
+       <!-- /#page-content-wrapper -->
+ </div>
+
+   <!-- /#wrapper -->
 </section>
-
-
-
-
   <!-- Footer -->
 
   <section class="col-sm-12">
@@ -60,15 +159,14 @@
       <div class="container-fluid">
          <nav class="navbar">
            <!-- copyright -->
-           <small>&copy; Hotel Citrus, 2016</small>
-
+           <small style="padding-left:200px;">&copy; Hotel Citrus, 2016</small>
              <!-- nav -->
                <ul class="nav navbar-nav" style="float:right; font-family: "Roboto Condensed", Times, serif;">
-                 <li class="active"><a href="#">Home</a></li>
+                 <li class="active"><a href="index.html">Home</a></li>
                  <li><a href="restaurant.html">Restaurant</a></li>
                  <li><a href="gallery.html">Gallery</a></li>
-                 <li><a href="#contact_form">Contacts</a></li>
-                 <li><a href="#about">About</a></li>
+                 <li><a href="index.html#contact_form">Contacts</a></li>
+                 <li><a href="index.html#about">About</a></li>
                </ul>
            </div>
          </nav>
