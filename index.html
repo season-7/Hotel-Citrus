@@ -3,121 +3,147 @@
   <head>
     <meta charset="utf-8">
     <title>Hotel Citrus</title>
-    <link rel="stylesheet" href="assets/stylesheets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./assets/stylesheets/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <!-- Reset css -->
+    <link rel="stylesheet" href="./assets/stylesheets/reset.css">
+
+    <!-- Bootstrap Customs css -->
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css" >
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    
   </head>
   <body>
     <header>
 
-      <h1 class="primary-header">
-        <a href="index.html">Hotel Citrus</a>
-      </h1>
 
-      <p class="slogan">Across the street from the ordinary</p>
+    <!-- Navigation -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#" style="color:green; font-size:30px;">Citrus Hotel</a>
+        </div>
+        <div class="col-sm-4">
+          <p style="text-align:center; padding-top:40px; padding-left:80px; color:orange; font-size:20px;">Across the street from the ordinary</p>
+        </div>
 
-      <nav class="top-nav">
-        <ul>
-          <a href="index.html">Home</a>
-          <a href="restaurants.html">Restaurant</a>
-          <a href="gallery.html">Gallery</a>
-      </ul>
-      </nav>
+        <div class="nav">
+          <ul class="nav navbar-nav" style="float:right;">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="restaurant.html">Restaurant</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="#contact_form">Contacts</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+        </div>
 
-    </header>
+        </div>
+  </nav>
+  </header>
 
-    <section class="section2 row">
+
+<section class="col-sm-12" style="padding-top:90px; padding-bottom:20px;">
+  <div class="col-sm-4"style="padding-top:10px;">
+      <img width="100%;"src="./assets/images/index.jpeg" alt="background image" />
+  </div>
+  <div class="col-sm-4"style="padding-top:10px;">
+      <img width="100%;"src="./assets/images/dinner.jpeg" alt="background image" />
+  </div>
+  <div class="col-sm-4"style="padding-top:0px;">
+      <img width="100%;"src="./assets/images/dinner2.jpeg" alt="background image" />
+  </div>
+
+</section>
+  <section class="col-sm-12" id="about">
+    <div class="col-sm-6">
       <h3>About Us</h3>
-
       <p>Hotel Citrus is the oldest hotel in the city, having been established in 1902 by English businessman Harrison Kamau,
         when the city was a railway halt.<br>
-        We offer a wide range of services:
-        <ul>
-          <li>Accomodation</li>
-          <li>Conference facilities</li>
-          <li>Spa</li>
-          <li>Catering</li>
-        </ul>
-
-      </p>
-    </section>
-
-    <section class="section2 row">
-      <h3>Services Offered</h3>
-
+        We offer a wide range of services.
+      <h3>Swimming Pool</h3>
       <p>
-        Hotel citrus has 217 rooms, including 160 deluxe rooms, 32 club rooms, two courier singles, 21 themed suites, a presidential suite, and a penthouse. Suites have a living room and guest water closet, as well as the bedroom (two bedrooms in some suites). The presidential suite also has a bodyguard room.
-        There are nine meeting and conference rooms with audio-visual equipment, including a 227-square-metre (2,440 sq ft) ballroom, and a business center with computers, fax, photocopier, and secretarial services.
-        Hotel Citrus has a heated rooftop swimming pool, as well as a health club with a sauna and steambath.
-        There is a shopping arcade located on the first floor with gift shops, a boutique, a chemist, and an optician.
+        Hotel Ballina has a 20 meter heated swimming pool, suitable for swimmers of all standards with a depth of 1.3meters, plus for that starting out a children’s pool.  There are pool programmes and activities including aqua aerobics, adults and kids swimming lessons available weekly.  We also offer private one to one and group swimming lessons.
       </p>
-
-    </section>
-
-    <section class="section2 row">
-      <h3>Awards</h3>
-
+      <h3>Catering</h3>
       <p>
-        In 2015, hotel citrus was number 10 in th list of top 25 hotels in the world.
-        We also won travellers choice award during the same year and we have been nominated for several other awards this year.
+        Complete Catering Service offers you a friendly, flexible approach for all your catering needs. <br>Whether you require a simple sandwich buffet delivered to your office, a party at home or a fully served banquet.
       </p>
+    </div>
+    <div class="col-sm-6">
+        <h3>Accomodation</h3>
+        <p>We offer accommodation based on the number of beds available.</p>
+        <h3>Conference facilities</h3>
+        <p>The main conference facilities include 2 large conference rooms with a maximum capacity of 100 delegates in each and one medium conference room for up to 30 theatre.</p>
+        <h3>Fitness Classes</h3>
+        <p>
+          Sixty minute group classes – including yoga, Pilates and spinning – are offered throughout the week. Participants who are not staying at the Resort may enjoy the lesson for CAD 30, which includes access to our fitness and changing room facilities.
+        </p>
 
-    </section>
+    </div>
 
-    <section class="section2 row">
-      <h3>Contact Us</h3>
-      <p>
-        Email: hotelcitrus@gmail.com <br>
-        Telephone: 0774749927
-      </p>
+  </section>
+  <section id="contact_form" class="col-sm-12">
+   <form class="col-sm-6" id="form" action="/" method="post" style="padding-bottom:20px;" >
+     <h1>Contact us</h1>
+     <!-- form -->
+           <div class="form-group">
+             <label for="exampleInputEmail1">Email address</label>
+             <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email Address">
 
-    </section>
+               <label for="exampleInputPassword1">Full name</label>
+             <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Full Name">
 
-    <section>
+             <label for="exampleComment">Leave a comment</label>
+             <textarea class="form-control" name="comment" rows="6" cols="5"></textarea>
+           </div>
+           <button type="submit" class="btn btn-default">Submit</button>
+         </form>
+         <div class="col-sm-6">
+           <h3 style="color:green;">Follow us on Social media</h3>
+              <img  width="100%;"src="./assets/images/catering.jpg" alt="background image" />
+              <a href="#" target="_blank"><img src="./assets/images/Facebook-logo.png" style="width:50px;height:50px;"></a>
+                    <a href="#"target="_blank"><img src="./assets/images/Twitter-logo.png" style="width:50px;height:50px;"></a>
+                    <a href="#"target="_blank"><img src="./assets/images/Instagram-logo.png"style="width:50px;height:50px;"></a>
 
-      <div class="column-1">
-        <p>Place a Booking</p>
-      <form method="post">
+         </div>
 
-        <fieldset>
-          <legend>Residency</legend>
 
-          <select class="" name="Residency">
-            <option value="Resident">Resident</option>
-            <option value="Non Resident">Non Resident</option>
-          </select>
+ </section>
 
-        </fieldset>
 
-        <fieldset>
-          <legend>Arrival</legend>
+  <!-- Footer -->
 
-          <select class="" name="Arrival">
+  <section class="col-sm-12">
+    <footer class="primary-footer container group" style="width: 1250px;">
+      <div class="container-fluid">
+         <nav class="navbar">
+           <!-- copyright -->
+           <small>&copy; Hotel Citrus, 2016</small>
 
-          </select>
+             <!-- nav -->
+               <ul class="nav navbar-nav" style="float:right; font-family: "Roboto Condensed", Times, serif;">
+                 <li class="active"><a href="#">Home</a></li>
+                 <li><a href="restaurant.html">Restaurant</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="#contact_form">Contacts</a></li>
+                 <li><a href="#about">About</a></li>
+               </ul>
+           </div>
+         </nav>
 
-        </fieldset>
+       </footer>
 
-        <fieldset>
-          <legend>Departure</legend>
+  </section>
+    <!-- scripts -->
 
-          <select class="" name="Departure">
-            
-          </select>
-
-        </fieldset>
-
-      </form>
-    </section>
-
-    <footer class="container">
-
-      <nav class="bottom-nav">
-        <a href="index.html">Home</a>
-        <a href="restaurants.html">Restaurants</a>
-        <a href="gallery.html">Gallery</a>
-      </nav>
-
-    </footer>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="./assets/js/index.js"></script>
   </body>
 </html>
