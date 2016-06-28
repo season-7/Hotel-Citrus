@@ -1,0 +1,11 @@
+body{
+  background: grey;
+  margin: 0;
+}
+@media (min-width: 600px) {
+
+}
+.nopadding{
+    padding-left: 0px !important;
+    padding-right:0px !important;
+}
