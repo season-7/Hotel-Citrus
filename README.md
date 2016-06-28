@@ -1,5 +1,5 @@
 <h1>Hotel Citrus</h1>
-<p>This is a website for virtual Citrus Hotel.</p>
+<p>This is a website for Citrus Hotel.</p>
 
 <p>From the website, you can, ideally, book for a room, and review the company's offers.</p>
 
