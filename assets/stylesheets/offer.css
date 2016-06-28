@@ -13,3 +13,27 @@ body{
 #wedding{
   font-family: 'raleway';
 }
+
+/*
+  ========================================
+  Primary footer
+  ========================================
+*/
+
+.primary-footer {
+  display: table;
+  background: black;
+  color: #648880;
+  margin-left: 0;
+  width: 100%;
+  font-size: 14px;
+  /*padding-bottom: 44px;*/
+  padding-top: 20px;
+  height: 54px;
+    overflow: hidden;
+}
+
+.primary-footer small {
+  float: left;
+  font-weight: 400;
+}
