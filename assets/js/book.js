@@ -4,6 +4,7 @@ $(document).ready(function()
         interval: 3000
       });
        $("#datepicker").datepicker();
+       $("#datepicker2").datepicker();
        $('#contact_form').on('submit', function(e){
 
     		//place event handling logic here
