@@ -4,6 +4,8 @@ $(document).ready(function()
         interval: 3000
       });
        $("#datepicker").datepicker();
+       $("#form").validate();
+
       $(window).load(function() {
         $('.flexslider').flexslider({
             selector: ".slides > div.tile",
