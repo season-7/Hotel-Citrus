@@ -101,27 +101,29 @@
 
                    </div>
                    <div class="col-lg-12">
-                     <form class="col-sm-6" id="form" action="/" method="post" style="padding-bottom:20px;" >
+                     <form class="col-sm-6" id="contact_form" action="/" method="post" style="padding-bottom:20px;" >
                        <h1 style="color:green;">Book Room</h1>
                        <!-- form -->
                              <div class="form-group">
                                <label for="exampleInputEmail1">Email address</label>
-                               <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email Address" required>
+                               <input type="email" name="email"class="form-control" id="exampleInputEmail1" placeholder="Email Address">
 
-                                 <label for="exampleInputPassword1">Full name</label>
-                               <input type="text" name="name"class="form-control" id="exampleInputPassword1" placeholder="Full Name">
+                                 <label for="exampleInputFullName">Full name</label>
+                               <input type="text" name="name"class="form-control" id="exampleInputFullName" placeholder="Full Name">
                                <label for="exampleInputPhoneNumber">Phone Number</label>
-                             <input type="text" name="name"class="form-control" id="exampleInputPhoneNumber" placeholder="Phone Number">
+                             <input type="text" name="phone"class="form-control" id="exampleInputPhoneNumber" placeholder="Phone Number">
+                             <label for="exampleInputDate">Date</label><br>
+                             <input type="text" name="date" id="datepicker"><br>
                              <label for="exampleInputPayment">Mode of Payment</label>
                              <select class="c-select">
                                   <option selected>Select Mode of payment</option>
                                   <option value="1">Mpesa</option>
                                   <option value="2">PayPal</option>
-                                  <option value="3">TVisa Card</option>
+                                  <option value="3">Visa Card</option>
                                   <option value="4">MoneyGram</option>
                                 </select><br>
 
-                               <label for="exampleComment">Select room</label>
+                               <label for="exampleComment">Select Room Num</label>
                                <select class="c-select">
                                     <option selected>Open this select a room</option>
                                     <option value="1">First floor</option>
@@ -130,7 +132,7 @@
                                     <option value="4">Fourth Floor</option>
                                   </select>
                              </div>
-                             <button type="submit" class="btn btn-default">Submit</button>
+                             <button type="submit" style=" background:#03a9f4;" class="btn btn-default">Submit</button>
                            </form>
                            <div class="col-sm-6">
                              <h1 style="color:green;">Special Offers</h1>
@@ -158,6 +160,7 @@
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
     <script src="https://code.jquery.com/ui/1.10.3/jquery-ui.min.js"></script>
+    <!-- https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.15.0/jquery.validate.min.js -->
     <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
     <script src="./assets/js/book.js"></script>
