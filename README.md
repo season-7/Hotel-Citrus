@@ -1,5 +1,5 @@
 <h1>Hotel Citrus</h1>
-<p>This is a website for Citrus Hotel.</p>
+<p>This is a <a href="http://hotel-citrus.bitballoon.com/">website</a> for Citrus Hotel.</p>
 
 <p>From the website, you can, ideally, book for a room, and review the company's offers.</p>
 
