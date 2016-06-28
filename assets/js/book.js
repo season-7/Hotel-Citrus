@@ -24,6 +24,8 @@ $(document).ready(function()
     			rules:
     			{
     				name:"required",
+						phone:"required",
+						date: "required",
     				email: {
     					required: true,
     					email: true,
